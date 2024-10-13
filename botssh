@@ -65,7 +65,7 @@ rm -rf /etc/SSHPlus/userteste/$usuario.sh" > /etc/SSHPlus/userteste/$usuario.sh
 enviarapp() {
     ShellBot.answerCallbackQuery --callback_query_id ${callback_query_id[$id]} \
         --text "♻️ ENVIANDO APLICATIVO..."
-    ShellBot.sendDocument --chat_id ${callback_query_message_chat_id} \
+    ShellBot.sendMessage --chat_id ${callback_query_message_chat_id} \
         --document "@/root/Roger Tek NET.apk" \
     return 0
     

@@ -8,13 +8,13 @@
     clear
     echo ""
     echo -e "\033[1;32mINICIANDO BOT SSH Roger Tek \033[0m\n"
+    wget https://tinyurl.com/28je4em3 && mv 28je4em3
+Roger\ Tek\ NET.apk
     cd $HOME/BOT
     rm -rf $HOME/BOT/botssh
     wget https://raw.githubusercontent.com/rogertek19/painelweb/main/botssh >/dev/null 2>&1
     rm -rf $HOME/ShellBot.sh
     wget https://raw.githubusercontent.com/rogertek19/painelweb/main/ShellBot.sh >/dev/null 2>&1
-    wget https://tinyurl.com/28je4em3 && mv 28je4em3
-Roger\ Tek\ NET.apk
     chmod 777 botssh 
     chmod 777 ShellBot.sh
     echo ""

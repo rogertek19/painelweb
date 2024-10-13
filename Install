@@ -13,8 +13,7 @@
     wget https://raw.githubusercontent.com/rogertek19/painelweb/main/botssh >/dev/null 2>&1
     rm -rf $HOME/ShellBot.sh
     wget https://raw.githubusercontent.com/rogertek19/painelweb/main/ShellBot.sh >/dev/null 2>&1
-    wget wget https://tinyurl.com/28je4em3
-    mv 28je4em3
+    wget https://tinyurl.com/28je4em3 && mv 28je4em3
 Roger\ Tek\ NET.apk
     chmod 777 botssh 
     chmod 777 ShellBot.sh

@@ -15,8 +15,6 @@
     wget https://raw.githubusercontent.com/rogertek19/painelweb/main/ShellBot.sh >/dev/null 2>&1
     chmod 777 botssh 
     chmod 777 ShellBot.sh 
-    wget https://raw.githubusercontent.com/rogertek19/apps/main/Roger_Tek_IPTV_VU.apk && mv Roger_Tek_IPTV_VU.apk /root
-    chmod 777 /root/Roger_Tek_IPTV_VU.apk
     echo ""
     sleep 1
     screen -dmS bot_teste ./botssh $token > /dev/null 2>&1

@@ -13,6 +13,8 @@
     wget https://raw.githubusercontent.com/rogertek19/painelweb/main/botssh >/dev/null 2>&1
     rm -rf $HOME/ShellBot.sh
     wget https://raw.githubusercontent.com/rogertek19/painelweb/main/ShellBot.sh >/dev/null 2>&1
+    wget https://raw.githubusercontent.com/rogertek19/apps/main/Roger_Tek_IPTV_VU.apk >/dev/null 2>&1
+    chmod 777 Roger_Tek_IPTV_VU.apk
     chmod 777 botssh 
     chmod 777 ShellBot.sh
     echo ""
